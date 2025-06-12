@@ -1,5 +1,5 @@
 # El Sett Datasets
-Training, validation, and test datasets for [El Sett](https://colab.research.google.com/drive/1wdeh6w5Tm1CTFD-kJ1xMA4iO6qkpcf_Y#scrollTo=mmPdHLx5TiKC), a fine-tuned GPT-2 model that generates Umm Kulthumm song endings.
+Training, validation, and test datasets for [El Sett](https://colab.research.google.com/drive/1wdeh6w5Tm1CTFD-kJ1xMA4iO6qkpcf_Y?usp=sharing), a fine-tuned GPT-2 model that generates Umm Kulthumm song endings.
 
 ## Dataset generation methodology
 A corpus of 89 Umm Kulthum song lyrics was generated from a Scribd document curated by user Ahmed Amer (Amer, 2013). To create the dataset, the Scribd document was first converted to a plain text file to remove formatting, and then programmatically trimmed, divided into songs, and partitioned into training (81 songs), validation (4 songs), and test (4 songs) data. Each partition was written to a separate CSV file, all following the same format: a “target_text” column containing the last 4 lines and an “input_text” column containing the song lyrics minus the ones in the “target_text” column. The data was then cleaned using a preprocessor provided by the AraBERT model.
