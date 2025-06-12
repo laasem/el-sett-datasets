@@ -7,8 +7,6 @@ A corpus of 89 Umm Kulthum song lyrics was generated from a Scribd document cura
 ## References
 Amer, A. (2013, January 30). أغانى أم كلثوم مكتوبة [Aghani Umm Kulthum Maktubah] [Document]. Scribd. https://www.scribd.com/doc/123012647/%D8%A3%D8%BA%D8%A7%D9%86%D9%89-%D8%A3%D9%85-%D9%83%D9%84%D8%AB%D9%88%D9%85-%D9%85%D9%83%D8%AA%D9%88%D8%A8%D8%A9-doc
 
-Aubmindlab. (n.d.). *Preprocess.py*. GitHub. https://github.com/aub-mind/arabert/blob/master/preprocess.py
-
 
 _Developed as part of the Computational Semantics course of the Universitat Pompeu Fabra's Master in Theoretical and Applied Linguistics taught by Gemma Boleda, Marta Garcia Casado, and Matéo Mahaut, from which some code was adapted._
 
